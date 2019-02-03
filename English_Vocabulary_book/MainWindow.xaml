@@ -22,7 +22,7 @@
 
             <ListView x:Name="vocabulary_ListView"
                       Margin="0 5 0 0"
-                      SelectionChanged="Vocabulary_ListView_SelectionChanged">
+                      Height="550">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <uc:VocaBularyControl Vocabulary="{Binding}"/>
